@@ -88,6 +88,7 @@
     packages = with pkgs; [
     #  thunderbird
     ];
+    #TODO: use one of *Password* options to declaratively set password 
   };
 
   # Enable automatic login for the user.
