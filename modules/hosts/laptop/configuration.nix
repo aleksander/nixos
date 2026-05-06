@@ -6,7 +6,7 @@
   flake.nixosModules.laptopConfiguration = { pkgs, lib, ... }: {
   imports = [ # Include the results of the hardware scan.
     #./hardware-configuration.nix
-    self.nixosModules.myMachineHardware
+    self.nixosModules.laptopHardware
     self.nixosModules.niri
   ];
 
