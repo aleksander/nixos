@@ -302,10 +302,11 @@
     google-chrome
     wireguard-tools
     alacritty
-    fuzzel		# \
-    #waybar		# | for raw niri
-    xwayland-satellite	# |
-    #brightnessctl	# /
+    #fuzzel
+    #waybar
+    xwayland-satellite
+    brightnessctl
+    playerctl
     imv			# image viewer
     noctalia-qs
     noctalia-shell
