@@ -145,8 +145,8 @@
     "smoothScrollEnabled": true
   },
   "ui": {
-    "fontDefault": "",
-    "fontFixed": "",
+    "fontDefault": "DejaVu Sans",
+    "fontFixed": "DejaVu Sans Mono",
     "fontDefaultScale": 1,
     "fontFixedScale": 1,
     "tooltipsEnabled": true,
@@ -501,8 +501,8 @@
   },
   "colorSchemes": {
     "useWallpaperColors": false,
-    "predefinedScheme": "Noctalia (default)",
-    "darkMode": true,
+    "predefinedScheme": "Nord",
+    "darkMode": false,
     "schedulingMode": "off",
     "manualSunrise": "06:30",
     "manualSunset": "18:30",
