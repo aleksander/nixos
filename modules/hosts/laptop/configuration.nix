@@ -8,6 +8,7 @@
     #./hardware-configuration.nix
     self.nixosModules.laptopHardware
     self.nixosModules.niri
+    self.nixosModules.yazi
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
