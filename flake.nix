@@ -1,6 +1,11 @@
 {
   description = "A simple NixOS flake";
 
+  nixConfig = {
+    extra-substituters = [ "https://yazi.cachix.org" ];
+    extra-trusted-public-keys = [ "yazi.cachix.org-1:Dcdz63NZKfvUCbDGngQDAZq6kOroIrFoyO064uvLh8k=" ];
+  };
+
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     # или stable: "github:nixos/nixpkgs/nixos-25.05"
