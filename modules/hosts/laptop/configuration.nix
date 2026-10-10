@@ -303,6 +303,7 @@
     #nemo
     #nemo-preview
     google-chrome
+    brave
     wireguard-tools
     alacritty
     #fuzzel

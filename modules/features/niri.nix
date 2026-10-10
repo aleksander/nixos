@@ -38,8 +38,8 @@
           "Mod+Return".spawn-sh = lib.getExe pkgs.alacritty;
           "Mod+S".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
           "Mod+B".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call bluetooth toggle";
-          "Print".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call screenshot-fullscreen";
-          "Shift+Print".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call screenshot-region";
+          #"Print".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call screenshot-fullscreen";
+          #"Shift+Print".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call screenshot-region";
           "Super+Alt+L".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call lockScreen lock";
           "XF86AudioRaiseVolume".spawn = ["wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+" "-l" "1.0"];
           "XF86AudioLowerVolume".spawn = ["wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"];
@@ -51,6 +51,8 @@
           "XF86AudioNext".spawn = ["playerctl next"];
           "XF86MonBrightnessUp".spawn = ["brightnessctl" "--class=backlight" "set" "+10%"];
           "XF86MonBrightnessDown".spawn = ["brightnessctl" "--class=backlight" "set" "10%-"];
+
+          "Print".screenshot             = _:{};
 
           "Mod+O".toggle-overview        = _:{};
           "Mod+Q".close-window           = _:{};
